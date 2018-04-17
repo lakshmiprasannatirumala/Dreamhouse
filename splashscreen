@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b13719"
+    tools:context="com.example.dell.splashscreen.MainActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/download"
+        android:layout_margin="120dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fulfill your life "
+        android:gravity="center"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="80dp"
+        android:fontFamily="cursive"
+        android:textColor="#f8f9ec02"
+        android:textSize="45sp"/>
+    />
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="95dp"
+        android:src="@drawable/google"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="150dp"
+        android:text="Sign in With Google"
+
+        android:autoLink="web|email"
+        />
+
+
+</RelativeLayout>
